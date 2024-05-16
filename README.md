@@ -1,6 +1,3 @@
-# RecipeManager
-A web application for managing recipes and ingredients.
-
 # Recipe Manager Application
 
 The Recipe Manager is a Java application that allows users to manage their favorite recipes. Users can add, update, remove, and fetch recipes. Additionally, they can filter available recipes based on various criteria such as vegetarian status, number of servings, specific ingredients, and text search within instructions.
