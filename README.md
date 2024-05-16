@@ -66,7 +66,7 @@ Configure the database connection in application.properties file.
 
 # Endpoints
 
-Recipes:
+
 	• POST /recipes: Create a new recipe.
 	• GET /recipes: Retrieve all recipes.
 	• PUT /recipes/{id}: Update a recipe by ID.
@@ -87,14 +87,14 @@ Recipes:
 			§ ingredient (optional) - Name of the ingredient.
 
 
-Ingredients
 
-POST /ingredients: Create a new ingredient.
-GET /ingredients: Retrieve all ingredients.
-GET /ingredients/{id}: Retrieve an ingredient by ID.
-PUT /ingredients/{id}: Update an ingredient by ID.
-DELETE /ingredients/{id}: Delete an ingredient by ID.
-GET /ingredients/name/contains/{partialName}: Retrieve ingredients by partial name.
+	• POST /ingredients: Create a new ingredient.
+	• GET /ingredients: Retrieve all ingredients.
+	• GET /ingredients/{id}: Retrieve an ingredient by ID.
+	• PUT /ingredients/{id}: Update an ingredient by ID.
+	• DELETE /ingredients/{id}: Delete an ingredient by ID.
+ 	• GET /ingredients/name/contains/{partialName}: Retrieve ingredients by partial name.
+
 
 # Swagger API Documentation
 
@@ -103,5 +103,5 @@ The application's REST API endpoints are documented using Swagger. Once the appl
 # Testing
 
 The application includes unit tests for controllers, services, and repositories. To run the tests, execute the following Maven command: mvn test
-![image](https://github.com/sumansameer/RecipeManager/assets/64070692/19401052-90c7-4ca0-9c90-8bd308186651)
+
 
